@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Apex Dental & Implant Studio | Precision Micro-Dentistry</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-tag"><span class="pulse-dot"></span> NABH Certified Clean Facility • German 3D Imaging</div>
+      <div class="top-contact">Direct Desk: <strong>+91 (011) 4920-8800</strong> | Sector 43, Gurugram</div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">◈</span>
+        <div class="brand-title">APEX<strong>DENTAL</strong><span>IMPLANTS & AESTHETICS</span></div>
+      </a>
+
+      <!-- Direct Visible Hamburger -->
+      <button class="hamburger-btn" id="menu-toggle" type="button" aria-label="Toggle Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Navigation Drawer -->
+      <nav class="main-nav" id="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="treatments.html">Treatments & Pricing</a>
+        <a href="index.html#transformations">Smile Cases</a>
+        <a href="index.html#calculator">Cost Estimator</a>
+        <a href="index.html#gallery">Clinic</a>
+        <a href="appointment.html" class="nav-btn-mobile">Book Appointment</a>
+      </nav>
+
+      <a href="appointment.html" class="btn-solid btn-nav">Book Appointment</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="badge-pill">DIGITAL DENTAL PRECISION</span>
+        <h1>Painless micro-dentistry, engineered around your smile.</h1>
+        <p>Computer-guided titanium implants, single-sitting microscopic root canals, and invisible 3D aligners with guaranteed transparent pricing.</p>
+        
+        <div class="hero-btns">
+          <a href="appointment.html" class="btn-solid">Reserve Consultation &rarr;</a>
+          <a href="#calculator" class="btn-outline">Calculate Treatment Cost</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-box">
+            <strong>14,000+</strong>
+            <span>Restorations Done</span>
+          </div>
+          <div class="stat-box">
+            <strong>99.4%</strong>
+            <span>Implant Success</span>
+          </div>
+          <div class="stat-box">
+            <strong>0% EMI</strong>
+            <span>Flexible Plans</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800&auto=format&fit=crop" alt="Apex Dental Operatory">
+        <div class="floating-proof">
+          <div class="proof-icon">✓</div>
+          <div>
+            <strong>100% Sterile Class-B Autoclave</strong>
+            <span>Fresh vacuum-pouched kit opened chairside</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specialities Grid -->
+  <section class="section" id="specialities">
+    <div class="container">
+      <div class="section-head">
+        <span class="sub-label">CORE DISCIPLINES</span>
+        <h2>Precision Dental Solutions</h2>
+        <p>Minimally invasive clinical care using Zeiss surgical optical magnification.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🦷</div>
+          <h3>Guided Dental Implants</h3>
+          <p>Computer-milled 3D surgical stents ensure exact angulation. Full-arch immediate loading available.</p>
+          <a href="treatments.html" class="card-arrow">View Fee Schedule &rarr;</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✨</div>
+          <h3>Clear Invisible Aligners</h3>
+          <p>Custom 3D-scanned polyurethane aligners to straighten crowded teeth without metallic brackets.</p>
+          <a href="treatments.html" class="card-arrow">View Fee Schedule &rarr;</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔬</div>
+          <h3>Microscopic Root Canal</h3>
+          <p>Single-sitting rotary endodontics conducted under optical magnification for complete pain relief.</p>
+          <a href="treatments.html" class="card-arrow">View Fee Schedule &rarr;</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💎</div>
+          <h3>IPS E-Max Porcelain Veneers</h3>
+          <p>Ultra-thin cosmetic laminates to correct discoloration, chips, and midline gaps naturally.</p>
+          <a href="treatments.html" class="card-arrow">View Fee Schedule &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Drag Before/After Comparison -->
+  <section class="section bg-light" id="transformations">
+    <div class="container">
+      <div class="section-head">
+        <span class="sub-label">CLINICAL EVIDENCE</span>
+        <h2>Smile Transformations (Before vs After)</h2>
+        <p>Drag the center handlebar to compare pre-op condition with final ceramic restorations.</p>
+      </div>
+
+      <div class="comparison-card">
+        <div class="slider-viewport" id="slider-viewport">
+          <!-- After Image -->
+          <img class="img-after" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=800&auto=format&fit=crop" alt="Restored Smile After">
+          
+          <!-- Before Image Container -->
+          <div class="before-clip" id="before-clip">
+            <img class="img-before" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=800&auto=format&fit=crop" alt="Discolored Smile Before">
+          </div>
+
+          <!-- Draggable Handle -->
+          <div class="drag-handle" id="drag-handle">
+            <span>‹ ›</span>
+          </div>
+
+          <span class="tag-pill tag-before">BEFORE</span>
+          <span class="tag-pill tag-after">AFTER RESTORATION</span>
+        </div>
+
+        <div class="case-details">
+          <span class="case-id">CASE STUDY #8402</span>
+          <h3>Anterior Aesthetic Rehabilitation & Shade Matching</h3>
+          <p><strong>Clinical Diagnosis:</strong> Severe enamel hypoplasia, fractured incisal edges, and midline diastema.</p>
+          <p><strong>Treatment:</strong> 6 IPS E-Max porcelain laminates (Shade BL2) with diode laser gingival contouring.</p>
+          <div class="case-stats">
+            <div><span>Timeline:</span> <strong>5 Days (2 Sittings)</strong></div>
+            <div><span>Warranty:</span> <strong>10 Years Replacement</strong></div>
+            <div><span>Lead Surgeon:</span> <strong>Dr. Alok Verma</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cost Estimator Section -->
+  <section class="section" id="calculator">
+    <div class="container">
+      <div class="section-head">
+        <span class="sub-label">HONEST PRICING</span>
+        <h2>Interactive Treatment Fee Estimator</h2>
+        <p>Select required treatments to compute your estimated clinical bill.</p>
+      </div>
+
+      <div class="calc-layout">
+        <div class="calc-checklist">
+          
+          <label class="calc-item">
+            <input type="checkbox" class="proc-check" data-name="Titanium Dental Implant (Single)" data-price="28000" data-sittings="2">
+            <span class="custom-chk"></span>
+            <div class="calc-txt">
+              <strong>Single Titanium Dental Implant (Nobel Biocare)</strong>
+              <small>Includes 3D CBCT guide, custom abutment & surgical placement</small>
+            </div>
+            <div class="calc-val">₹28,000</div>
+          </label>
+
+          <label class="calc-item">
+            <input type="checkbox" class="proc-check" data-name="CAD/CAM Solid Zirconia Crown" data-price="8500" data-sittings="2">
+            <span class="custom-chk"></span>
+            <div class="calc-txt">
+              <strong>CAD/CAM Monolithic Zirconia Crown</strong>
+              <small>15-Year replacement warranty; milled from German discs</small>
+            </div>
+            <div class="calc-val">₹8,500</div>
+          </label>
+
+          <label class="calc-item">
+            <input type="checkbox" class="proc-check" data-name="Single-Sitting Microscopic RCT" data-price="4500" data-sittings="1">
+            <span class="custom-chk"></span>
+            <div class="calc-txt">
+              <strong>Microscopic Single-Sitting Root Canal</strong>
+              <small>Painless rotary endodontics with rubber dam isolation</small>
+            </div>
+            <div class="calc-val">₹4,500</div>
+          </label>
+
+          <label class="calc-item">
+            <input type="checkbox" class="proc-check" data-name="Clear Invisible Aligners (Dual Arch)" data-price="48000" data-sittings="6">
+            <span class="custom-chk"></span>
+            <div class="calc-txt">
+              <strong>Clear Invisible Aligners (Full Dual-Arch)</strong>
+              <small>Custom 3D printed aligner series with progress scans</small>
+            </div>
+            <div class="calc-val">₹48,000</div>
+          </label>
+
+          <label class="calc-item">
+            <input type="checkbox" class="proc-check" data-name="Laser In-Office Teeth Whitening" data-price="6500" data-sittings="1">
+            <span class="custom-chk"></span>
+            <div class="calc-txt">
+              <strong>Laser In-Office Teeth Whitening</strong>
+              <small>Up to 6–8 shade improvements in a 45-minute sitting</small>
+            </div>
+            <div class="calc-val">₹6,500</div>
+          </label>
+
+        </div>
+
+        <div class="calc-summary-card">
+          <h3>Estimated Treatment Plan</h3>
+          <div class="summary-list" id="summary-list">
+            <p class="empty-list-msg">Select procedures to view line items.</p>
+          </div>
+
+          <div class="summary-totals">
+            <div class="total-line">
+              <span>Required Sittings:</span>
+              <strong id="total-sittings">—</strong>
+            </div>
+            <div class="total-line grand">
+              <span>Estimated Package Total:</span>
+              <strong id="grand-total">₹0</strong>
+            </div>
+          </div>
+
+          <a href="appointment.html" class="btn-solid full-btn">Book This Treatment &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clinic Gallery -->
+  <section class="section bg-light" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <span class="sub-label">INFRASTRUCTURE</span>
+        <h2>Studio Operatories & Technology</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=700&auto=format&fit=crop" alt="Operatory Suite">
+          <div class="gallery-caption">Sirona C8+ Surgical Operatory</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=700&auto=format&fit=crop" alt="Consultation Lounge">
+          <div class="gallery-caption">3D CBCT Diagnostic Review Bay</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=700&auto=format&fit=crop" alt="Micro Endodontics Desk">
+          <div class="gallery-caption">Zeiss Micro-Endodontics Suite</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="brand">
+          <span class="brand-icon">◈</span>
+          <div class="brand-title">APEX<strong>DENTAL</strong></div>
+        </div>
+        <p>A multi-speciality tertiary oral surgery and micro-dentistry studio. All procedures operate under hospital-grade clean protocols.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Studio Timings</h4>
+        <p>Mon – Sat: 09:30 AM – 08:30 PM</p>
+        <p>Sunday: 10:00 AM – 02:00 PM (Appointments Only)</p>
+      </div>
+      <div class="footer-col">
+        <h4>Location & Contact</h4>
+        <p>Suite 402, MediHealth Arcade, Sector 43, Gurugram</p>
+        <p>Emergency Desk: +91 (011) 4920-8800</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">© 2026 Apex Dental & Implant Studio. Certified NABH Healthcare Facility.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
